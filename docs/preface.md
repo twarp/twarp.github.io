@@ -1,9 +1,13 @@
 # 前言
-　　 《手册》的最终版终于发布了，我Fork此书的源项目进行二次修订（源项目应该是对PDF扫描出来的，不是少字就是多空格，看不下去了，手动狗头），修订后可（ken）能（ding）仍然会有一些错误和遗漏，不过后续会继续完善，此项目缘起于9月22日杭州云栖大会，众所期待的新书《码出高效：Java 开发手册》正式发布，并宣布将所有图书收益捐赠于公益项目。你也可以在码云上拉取[原作者的项目](https://gitee.com/kangroo/ajcg)，在符合MIT协议的条款下进行再创作，或者在Github上拉取[我的项目](https://github.com/twarp/twarp.github.io)，在符合Apache-2协议的条款下进行再创作。此文档开放PR
+　　 《手册》的最终版终于发布了，我Fork此书的源项目进行二次修订（源项目应该是对PDF扫描出来的，不是少字就是多空格，看不下去了，手动狗头），修订后可（ken）能（ding）仍然会有一些错误和遗漏，不过后续会继续完善，此项目缘起于9月22日杭州云栖大会，众所期待的新书《码出高效：Java 开发手册》正式发布，并宣布将所有图书收益捐赠于公益项目。你也可以在码云上拉取[原作者的项目](https://gitee.com/kangroo/ajcg)，在符合MIT协议的条款下进行再创作，或者在Github上拉取[我的项目](https://github.com/twarp/twarp.github.io)，在符合Apache-2协议的条款下进行再创作。不过最佳的方式是在Github拉取[官方的项目](https://github.com/alibaba/p3c)，它和博主一样使用了Apache-2，但官方项目是使用GitBook技术进行生成的，博主个人还是喜欢Docsify的写作方式。此文档开放PR，你可以扫描下面的二维码得到本文的链接
+
+![](../qrcode.png)
 
 > 原项目地址: [https://gitee.com/kangroo/ajcg](https://gitee.com/kangroo/ajcg)
 
-> 下载[《码出高效：Java 开发手册》](https://yq.aliyun.com/download/2719?utm_content=m_1000016761)的PDF
+> 官方项目地址：[https://github.com/alibaba/p3c](https://github.com/alibaba/p3c)
+
+> 下载[《码出高效：Java 开发手册》](https://github.com/alibaba/p3c/raw/master/%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4Java%E5%BC%80%E5%8F%91%E6%89%8B%E5%86%8C%EF%BC%88%E8%AF%A6%E5%B0%BD%E7%89%88%EF%BC%89.pdf)的PDF
 
 # 原前言
 　　《阿里巴巴 Java 开发手册》是阿里巴巴集团技术团队的集体智慧结晶和经验总结，经历了多次大规模一线实战的检验及不断的完善，系

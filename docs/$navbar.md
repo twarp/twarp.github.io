@@ -1,5 +1,0 @@
-- 相关链接
- - [手册官网](https://github.com/alibaba/p3c)
- - [docsify](https://github.com/QingWei-Li/docsify)
- - [IDEA插件](https://github.com/alibaba/p3c)
- - [Eclipse插件](https://github.com/alibaba/p3c)
