@@ -1,7 +1,7 @@
 # 前言
-　　 《手册》的最终版终于发布了，我Fork此书的源项目进行二次修订（源项目应该是对PDF扫描出来的，不是少字就是多空格，看不下去了，手动狗头），修订后可（ken）能（ding）仍然会有一些错误和遗漏，不过后续会继续完善，此项目缘起于9月22日杭州云栖大会，众所期待的新书《码出高效：Java 开发手册》正式发布，并宣布将所有图书收益捐赠于公益项目。你也可以在码云上拉取[原作者的项目](https://gitee.com/kangroo/ajcg)，在符合MIT协议的条款下进行再创作，或者在Github上拉取[我的项目](https://github.com/twarp/twarp.github.io)，在符合Apache-2协议的条款下进行再创作。不过最佳的方式是在Github拉取[官方的项目](https://github.com/alibaba/p3c)，它和博主一样使用了Apache-2，但官方项目是使用GitBook技术进行生成的，博主个人还是喜欢Docsify的写作方式。此文档开放PR，你可以扫描下面的二维码得到本文的链接
+　　 《手册》的最终版终于发布了，我Fork此书的源项目进行二次修订（源项目应该是对PDF扫描出来的，不是少字就是多空格，看不下去了，手动狗头），修订后可（ken）能（ding）仍然会有一些错误和遗漏，不过后续会继续完善，此项目缘起于9月22日杭州云栖大会，众所期待的新书《码出高效：Java 开发手册》正式发布，并宣布将所有图书收益捐赠于公益项目。你也可以在码云上拉取[原作者的项目](https://gitee.com/kangroo/ajcg)，在符合MIT协议的条款下进行再创作，或者在Github上拉取[我的项目](https://github.com/twarp/twarp.github.io)，在符合Apache-2协议的条款下进行再创作。不过最佳的方式是在Github拉取[官方的项目](https://github.com/alibaba/p3c)，它和博主一样使用了Apache-2，但官方项目是使用GitBook技术进行生成的，博主个人还是喜欢Docsify的写作方式。此文档开放PR，你可以扫描下方左侧的二维码得到本文的链接，扫描下方右侧的二维码给博主氪金（虽然不可能有人氪金，但形式还是要走一下的，否则这项目和咸鱼有什么区别）
 
-![](../qrcode.png)
+![](../qrcode.jpg) ![](../wx.jpg)
 
 > 原项目地址: [https://gitee.com/kangroo/ajcg](https://gitee.com/kangroo/ajcg)
 
