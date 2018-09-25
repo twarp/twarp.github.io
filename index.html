@@ -11,7 +11,7 @@
 	<meta charset="UTF-8">
 	<link rel="icon" href="media/favicon.ico">
 	<link rel="stylesheet" href="lib/docsify-4.5.6/themes/vue.css">
-</head>
+</head>z
 
 <body>
 	<div id="app">Please wait...</div>
@@ -19,7 +19,7 @@
 <script>
 	window.$docsify = {
 		repo: 'https://github.com/twarp/twarp.github.io.git',
-		name: '阿里巴巴Java开发手册',
+		name: 'Alibaba Java手册-江湖版',
 		basePath: 'docs/',
 		loadSidebar: '$sidebar.md',
 		coverpage: '$cover.md',
@@ -27,9 +27,21 @@
 		autoHeader: true,
 		auto2top: true,
 		subMaxLevel: 3,
-		themeColor: '#3F51B5'
+		themeColor: '#3F51B5',
+		search: {
+			noData: {
+				'/': '没有结果!'
+			},
+			paths: 'auto',
+			placeholder: {
+				'/': '搜索'
+			},
+      depth: 2
+		},
 	}
+
 </script>
 <script src="lib/docsify-4.5.6/docsify.min.js"></script>
+<script src="lib/docsify-4.5.6/plugins/search.min.js"></script>
 
 </html>
