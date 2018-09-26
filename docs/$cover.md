@@ -6,7 +6,7 @@
 
 > <small>创作:[Alibaba](https://github.com/alibaba) &emsp; 修订:[付天浩](https://github.com/lyrieek)</small>
 
-- 版本号：删减版1.1.0 | 更新日期：2018.09.25
+- 版本号：删减版1.1.0 | 更新日期：2018.09.26
 - 本文档基于[docsify](https://docsify.js.org)生成
 
 [开始阅读](#前言)
