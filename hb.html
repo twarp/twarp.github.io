@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>何奔</title>
+	<style type="text/css">
+		body {
+			background: black;
+			color: white;
+			overflow: hidden;
+		}
+
+		div {
+			position: absolute;
+			text-shadow: 1px 1px 1px white;
+		}
+
+	</style>
+	<script type="text/javascript">
+		function loop(text) {
+			for (let i = 0; i < 120; i++) {
+				const item = document.createElement('div');
+				item.innerText = text;
+				document.body.appendChild(item);
+				item.style.top = '-1%';
+				item.style.left = (Math.random() * 99).toFixed(2) + '%';
+				item.style.fontSize = Math.random() * 15 + 10 + 'px';
+				const time_loop = setInterval(() => {
+					let top = parseInt(item.style.top);
+					Math.random() > 0.3 && (top += 1); //下降
+					item.style.top = top + '%';
+					let coefficient = 0.4; // 左右移动系数
+					parseInt(item.style.left) > 70 && (coefficient = 0.5);
+					item.title = Math.random() > coefficient ? 1 : -1;
+					item.style.left = parseInt(item.style.left) + parseInt(item.title) + '%';
+					if (top > 100) {
+						item.remove();
+						clearInterval(time_loop);
+					}
+				}, Math.random() * 500);
+			}
+		}
+		window.onload = () => {
+			loop('何');
+			setTimeout(() => loop('奔'), 12000)
+		}
+
+	</script>
+</head>
+
+<body></body>
+
+</html>
